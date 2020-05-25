@@ -1,0 +1,66 @@
+/*
+    Name: KuanHsun Lu
+    Date: October 8, 2019
+    Section: CSE 154 AH
+    This is creative.css which meets the requirement in the HW1
+    It is used by debugdog.html specify in creative section
+*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
+
+#mowgli img {
+  width: 450px;
+  border-radius: 60px;
+  border-style: ridge;
+}
+
+#creative section {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+
+#mowgli {
+  margin-right: 60px;
+}
+
+#mowgli img, p img {
+  height: 100%;
+}
+
+#creative hr {
+  border-top: 1px dashed;
+  width: 100%;
+}
+
+details p {
+  opacity: 0.5;
+}
+
+details {
+  padding-bottom: 20px;
+}
+
+#creative h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#creative p, #creative h4, details {
+  text-align: center;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+ol li {
+  list-style: lower-alpha;
+}
+
+span {
+  font-family: fantasy;
+  color: darkblue;
+}
+
+p img {
+  width: 70px;
+}

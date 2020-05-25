@@ -1,0 +1,158 @@
+/*
+    Name: KuanHsun Lu
+    Date: October 8, 2019
+    Section: CSE 154 AH
+    This is styles.css which meets the requirement in the HW1
+    It is used by debugdog.html beside creative section
+*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+body {
+  background-image: url("img/dog-footprint.png");
+  background-repeat: repeat;
+  width: 80%;
+  background-color: #FEE8C8;
+  font-family: 'Space Mono', monospace;
+  margin: auto;
+}
+
+body a:link {
+  color: midnightblue;
+}
+
+body a:visited {
+  color: #866637;
+}
+
+header {
+  height: 350px;
+  background-image: url("img/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+h1, h2, h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3.1em;
+}
+
+header img {
+  border: solid white 10px;
+  border-radius: 200px;
+}
+
+#profile-pic {
+  padding-top: 3%;
+  padding-left: 75%;
+}
+
+h1, #endorsements, footer {
+  background-color: #34485E;
+  color: #EBEDEF;
+}
+
+h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+body > footer {
+  align-items: 20px;
+  font-size: 1vw;
+}
+
+footer img {
+  height: 70px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+main, #endorse blockquote, #endorse footer, #background {
+  background-color: #EBEDEF;
+}
+
+main, #endorse blockquote, #endorse footer, #background, #facts {
+  color: #34485E;
+}
+
+main {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+footer, main {
+  border-radius: 5px;
+}
+
+main > section {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#endorse blockquote {
+  border-left: solid #AEB6BF 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, #endorse blockquote, footer {
+  text-align: center;
+}
+
+h1, #endorse blockquote {
+  padding: 10px;
+}
+
+#endorse footer {
+  font-style: italic;
+}
+
+#endorse img {
+  width: 30vw;
+  max-width: 400px;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+#background p {
+  margin: 10px;
+}
+
+#facts {
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+
+#facts img {
+  margin-right: 5px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#facts img, header img {
+  width: 300px;
+}
+
+#facts img, header img, #endorse img {
+  height: 100%;
+}
+
+hr {
+  width: 40%;
+}

@@ -1,0 +1,102 @@
+/*
+  NAME:KuanHsun Lu
+  DATE: October 15, 2019
+  SECTION/TA: CSE154 AH, Valerie
+  This is the css file which styles set.html. In this partA, the output will be nine cards
+  and wrap while sizing the windows. Further implementation will be done in partB.
+ */
+
+body, button, select, input {
+  font-size: 12pt;
+  font-family: "Helvetica", "Verdana", sans-serif;
+}
+
+body, button, select, input, .card p {
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+#board, #details-bar, .card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#board {
+  flex-wrap: wrap;
+  padding: 20px;
+  border-bottom: 5pt solid black;
+  border-right: 5pt solid black;
+  border-left: 5pt solid black;
+}
+
+#details-bar, .card {
+  flex-direction: row;
+  align-items: center;
+}
+
+#details-bar {
+  background-color: black;
+  border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em;
+  font-size: 14pt;
+}
+
+.card {
+  width: 220px;
+  height: 95px;
+  border: solid black 0.35em;
+  border-radius: 1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.card p, h2 {
+  font-size: 16pt;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+.hide-imgs img, .hidden {
+  display: none;
+}
+
+.selected {
+  box-shadow: 6px 6px #636363;
+}
+
+.card img {
+  height: 85%;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#menu-view > article, #details-bar {
+  color: white;
+}
+
+#menu-view > article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+}
