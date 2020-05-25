@@ -1,0 +1,20 @@
+{
+  "name": "hw4-bestreads-will1994",
+  "version": "1.0.0",
+  "description": "*Special thanks to Allison Obourn for the original version of this assignment. Additional thanks to Tal Wolman and Jack Venberg for the adaptation of this assignment into Node.js*",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cs.washington.edu:cse154-19au-students/hw4-bestreads-will1994.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

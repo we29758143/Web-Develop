@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+	HTML for Bestreads Assignment - CSE 154 HW4.
+	DO NOT MODIFY THIS HTML. MODIFICATIONS MAKE YOU INELIGIBLE FOR FULL CREDIT
+  DO NOT ADD A HEADER COMMENT TO THIS FILE
+-->
+
+<html lang="en">
+  <head>
+    <title>Bestreads</title>
+    <link rel="stylesheet" href="bestreads.css" />
+    <!-- You must implement bestreads.js: -->
+    <script src="bestreads.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div>best<span>reads</span></div><button id="home">home</button>
+    </header>
+    <main>
+      <!-- Error View -->
+      <h3 id="error-text" class="hidden">
+        Something went wrong on our service, please try again later.
+      </h3>
+
+      <section id="book-data">
+        <!-- Book List View -->
+        <section id="all-books"></section>
+
+        <!-- Single Book View -->
+        <section id="single-book" class="hidden">
+          <div>
+            <!-- Set to a provided tiny transparent img. Change the src as necessary -->
+            <img id="book-cover" src="images/small-transparent-pixel.png" alt="cover image" />
+
+            <article id="book-info">
+              <h1 id="book-title"></h1>
+              <h2 id="book-author"></h2>
+              <p>Overall rating: <span id="book-rating"></span></p>
+              <p id="book-description"></p>
+            </article>
+          </div>
+
+          <article id="book-reviews"></article>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

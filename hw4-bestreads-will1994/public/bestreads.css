@@ -1,0 +1,141 @@
+/*
+  CSS for Bestreads Assignment for CSE 154 HW4.
+  DO NOT MODIFY THIS CSS.
+  DO NOT ADD A HEADER COMMENT TO THIS FILE
+*/
+
+body {
+  margin: 0px;
+}
+
+button, body {
+  background-color: #fefcf4;
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+
+body > main {
+  padding-top: 104px;
+}
+
+header {
+  background-image: url("images/books.jpg");
+  box-shadow: 0 5px 5px lightgray;
+  height: 104px;
+  width: 100%;
+  position: fixed;
+}
+
+header > div {
+  font-family: "Tahoma", sans-serif;
+  bottom: 0px;
+  color: #939384;
+  font-size: 36pt;
+  position: absolute;
+  left: 10%;
+}
+
+header > div > span {
+  font-weight: bold;
+}
+
+button, .selectable {
+  cursor: pointer;
+}
+
+#home {
+  background-color: transparent;
+  border: #974455 solid 2px;
+  bottom: 5px;
+  color: #974455;
+  font-size: 18pt;
+  right: 10%;
+  padding: 3px;
+  position: absolute;
+}
+
+#home:disabled {
+  cursor: default;
+}
+
+#all-books, #single-book, #single-book > div {
+  display: flex;
+}
+
+#all-books {
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#single-book {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#single-book > div {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#all-books div {
+  background-color: #f4f1eb;
+  border-radius: 5px;
+  box-shadow: 0 0 15px gray;
+  margin: 20px;
+  padding: 5px 5px 0px 5px;
+  width: 200px;
+  height: 330px;
+}
+
+/* book cover images */
+#all-books img {
+  height: 220px;
+  width: 150px;
+}
+
+#book-info {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#book-info > h1, #book-info > h2 {
+  font-size: 16pt;
+}
+
+h2 {
+  border-bottom: 1px solid #e4e1da;
+}
+
+h3, h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#book-reviews {
+  margin: auto;
+  padding-top: 0.5em;
+  width: 70%;
+}
+
+#book-reviews p {
+  margin-top: 0px;
+  padding-bottom: 0.5em;
+}
+
+#single-book img, #book-info, #error-text {
+  margin-top: 50px;
+}
+
+#all-books div, #book-reviews, #error-text {
+  text-align: center;
+}
+
+#single-book img {
+  width: 200px;
+  margin-left: 15%;
+}
+
+.hidden, #all-books.hidden, #single-book.hidden {
+  display: none;
+}
