@@ -1,0 +1,21 @@
+{
+  "name": "hw5-pokedex-api-will1994",
+  "version": "1.0.0",
+  "description": "*Special thanks to Whitaker Brand and Melissa Hovik for the original version of this assignment. Additional thanks to Tal Wolman and Jack Venberg for the adaptation of this assignment into Node.js*",
+  "main": "pokedex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cs.washington.edu:cse154-19au-students/hw5-pokedex-api-will1994.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "multer": "^1.4.2",
+    "mysql2": "^2.0.1"
+  }
+}
